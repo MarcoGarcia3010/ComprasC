@@ -1,0 +1,74 @@
+.cart{
+    position: absolute;
+    top: 0;
+    right: 10vw;
+}
+
+.cart{
+    color:black;
+    font-style: oblique;
+}
+
+
+.agregar{
+    background-color: #85a4e7; 
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+.eliminar{
+    background-color:red;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.texto{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+.confirmar{
+    background-color:#4CAF50;;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.titulo{
+    font-style: oblique;
+}
+
+.celcard{
+
+    list-style: none;
+    width: 173px;
+    height: 125px;
+    background:thistle;
+    margin: 10px;
+    border-radius: 10px;
+}
