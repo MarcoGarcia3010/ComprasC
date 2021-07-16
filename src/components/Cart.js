@@ -41,7 +41,7 @@ const enviar = ()=>{
     return(
         <div className='cart'>
             <div>
-                <h3>Carrito Compras <button className='confirmar' onClick={()=>enviar()}> Confirmar </button></h3>
+                <h3>Carrito<button className='confirmar' onClick={()=>enviar()}> Confirmar </button></h3>
             </div>
             {cart.length === 0 ? (<p>0</p>) : (cart.map((celular => <Celular key={celular.id} celular={celular} cart={cart} setCart={setCart} />)))}
 
